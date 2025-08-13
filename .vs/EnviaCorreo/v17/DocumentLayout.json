@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\proyectos\\EnviaCorreo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{406D7AB9-0BE2-4457-BD2F-EBFD6777F835}|EnviaCorreo.csproj|c:\\proyectos\\enviacorreo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{406D7AB9-0BE2-4457-BD2F-EBFD6777F835}|EnviaCorreo.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{406D7AB9-0BE2-4457-BD2F-EBFD6777F835}|EnviaCorreo.csproj|c:\\proyectos\\enviacorreo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{406D7AB9-0BE2-4457-BD2F-EBFD6777F835}|EnviaCorreo.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{406D7AB9-0BE2-4457-BD2F-EBFD6777F835}|EnviaCorreo.csproj|c:\\proyectos\\enviacorreo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{406D7AB9-0BE2-4457-BD2F-EBFD6777F835}|EnviaCorreo.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{406D7AB9-0BE2-4457-BD2F-EBFD6777F835}|EnviaCorreo.csproj|c:\\proyectos\\enviacorreo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{406D7AB9-0BE2-4457-BD2F-EBFD6777F835}|EnviaCorreo.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{406D7AB9-0BE2-4457-BD2F-EBFD6777F835}|EnviaCorreo.csproj|c:\\proyectos\\enviacorreo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{406D7AB9-0BE2-4457-BD2F-EBFD6777F835}|EnviaCorreo.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,15 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\proyectos\\EnviaCorreo\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -38,8 +34,12 @@
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T23:51:21.909Z",
+              "WhenOpened": "2025-08-13T01:30:04.116Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -55,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\proyectos\\EnviaCorreo\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\proyectos\\EnviaCorreo\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAADwv3AAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T23:11:08.619Z",
               "EditorCaption": ""

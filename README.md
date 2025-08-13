@@ -1,44 +1,41 @@
-Reporte de Ventas por Email
-Descripción del Proyecto
-Este proyecto es una aplicación de escritorio desarrollada en .NET Framework 4.7.2 diseñada para automatizar el envío de reportes de ventas por correo electrónico. La aplicación se integra con sistemas legados (en los cuales tengas acceso al codigo fuente) para generar y enviar reportes diarios de forma automática, sin requerir la intervención del usuario.
+Automatizador de Envío de Correos con Reporte CSV 🚀
+Este es un proyecto simple en C# y WPF que automatiza el envío de correos electrónicos. Su función principal es leer un archivo CSV, convertir los datos en una tabla HTML y enviar esta tabla como cuerpo de un correo electrónico.
 
-La aplicación toma un archivo CSV como entrada, lo procesa para convertir su contenido en una tabla HTML, y envía esta tabla en el cuerpo de un correo electrónico. Esto garantiza que el reporte sea legible y visualmente atractivo para los destinatarios.
+✨ Características
+Envío de Correos Automatizado: Inicia el proceso de envío de correos de forma automática al cargar la aplicación.
 
-Características Principales
-Automatización: Envío de correos electrónicos sin interacción manual.
+Visualización de Estado: Muestra el progreso del envío en una ventana de la aplicación.
 
-Integración: Diseñado para ser ejecutado por aplicaciones externas a través de la línea de comandos.
+Formato HTML: Convierte automáticamente el contenido de un archivo CSV en una tabla HTML para un formato visualmente atractivo en el cuerpo del correo.
 
-Formato Profesional: Convierte datos de un archivo CSV en una tabla HTML legible dentro del cuerpo del correo.
+Uso de Argumentos: Configura el envío del correo electrónico mediante argumentos de línea de comandos, lo que lo hace ideal para tareas automatizadas o scripts.
 
-Configuración de Correo Segura: Utiliza la librería MailKit para una conexión robusta y segura con servidores SMTP (SSL/TLS).
+🛠️ Requisitos
+Visual Studio: Se requiere para compilar y ejecutar el proyecto.
 
-Tecnologías Usadas
-C#
+.NET Framework: El proyecto está construido sobre el .NET Framework.
 
-.NET Framework 4.7.2
+Acceso a un Servidor SMTP: Necesitarás un servidor SMTP y credenciales válidas para enviar correos.
 
-MailKit: Librería para el envío de correos electrónicos.
+⚙️ Uso
+Para utilizar esta aplicación, debes pasar cinco argumentos de línea de comandos en el siguiente orden:
 
-Modo de Uso
-La aplicación se ejecuta a través de la línea de comandos con tres argumentos:
+emailEmisor: El correo electrónico que enviará el mensaje.
 
-EnviaCorreo.exe "correo_origen@ejemplo.com" "correo_destino@ejemplo.com" "ruta\al\archivo\reporte.csv"
+password: La contraseña del correo electrónico emisor.
 
-correo_origen@ejemplo.com: Dirección de correo electrónico del remitente.
+emailDestinatario: El correo electrónico que recibirá el mensaje.
 
-correo_destino@ejemplo.com: Dirección de correo electrónico del destinatario.
+encabezadoCorreo: El asunto del correo electrónico.
 
-ruta\al\archivo\reporte.csv: Ruta completa al archivo CSV que contiene el reporte.
+archivoReporteCsv: La ruta al archivo CSV que se utilizará para el cuerpo del correo.
 
-Configuración
-Para su correcto funcionamiento, es necesario configurar las credenciales y el servidor SMTP en el código fuente de la clase EmailSender.cs.
+Ejemplo de cómo ejecutarlo:
+EnviarCorreo.exe "tu_correo@ejemplo.com" "tu_password" "destino@ejemplo.com" "Reporte Semanal" "C:\reporte.csv"
+⚠️ Advertencia
+La contraseña se maneja como un argumento de texto plano. Para una mayor seguridad en entornos de producción, se recomienda utilizar un método más seguro para manejar credenciales, como variables de entorno o un servicio de secretos.
 
-C#
-
-// Ejemplo de configuración en EmailSender.cs
-await client.ConnectAsync("mail.tudominio.mx", 465, SecureSocketOptions.SslOnConnect);
-await client.AuthenticateAsync("tucuenta@tudominio.mx", "tu_contraseña_real");
+El servidor SMTP está configurado como mail.tuDominio.com. Asegúrate de cambiar esta configuración en el archivo MainWindow.xaml.cs por el servidor SMTP que utilices.
 Contribuir
 Siéntete libre de clonar este repositorio y adaptarlo a tus necesidades. Si encuentras alguna mejora o bug, ¡envía un Pull Request!
 
