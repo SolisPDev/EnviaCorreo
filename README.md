@@ -40,8 +40,11 @@ La contraseña se maneja como un argumento de texto plano.
 Para una mayor seguridad en entornos de producción, se recomienda utilizar un método más seguro para manejar credenciales, como variables de entorno o un servicio de secretos.
 
 El servidor SMTP está configurado como mail.tuDominio.com. Asegúrate de cambiar esta configuración en el archivo MainWindow.xaml.cs por el servidor SMTP que utilices.
+
 Contribuir
-Siéntete libre de clonar este repositorio y adaptarlo a tus necesidades. Si encuentras alguna mejora o bug, ¡envía un Pull Request!
+
+Siéntete libre de clonar este repositorio y adaptarlo a tus necesidades.
+Si encuentras alguna mejora o bug, ¡envía un Pull Request!
 
 Licencia
 Este proyecto está bajo la licencia [MIT].
