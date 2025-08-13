@@ -32,8 +32,12 @@ archivoReporteCsv: La ruta al archivo CSV que se utilizará para el cuerpo del c
 
 Ejemplo de cómo ejecutarlo:
 EnviarCorreo.exe "tu_correo@ejemplo.com" "tu_password" "destino@ejemplo.com" "Reporte Semanal" "C:\reporte.csv"
+
+
 ⚠️ Advertencia
-La contraseña se maneja como un argumento de texto plano. Para una mayor seguridad en entornos de producción, se recomienda utilizar un método más seguro para manejar credenciales, como variables de entorno o un servicio de secretos.
+
+La contraseña se maneja como un argumento de texto plano.
+Para una mayor seguridad en entornos de producción, se recomienda utilizar un método más seguro para manejar credenciales, como variables de entorno o un servicio de secretos.
 
 El servidor SMTP está configurado como mail.tuDominio.com. Asegúrate de cambiar esta configuración en el archivo MainWindow.xaml.cs por el servidor SMTP que utilices.
 Contribuir
